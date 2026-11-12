@@ -1,0 +1,37 @@
+name: Package release
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Draft release tag to publish
+        required: true
+        default: v0.3.0
+      revision:
+        description: Reviewed full commit SHA
+        required: true
+        default: main
+permissions:
+  contents: write
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ inputs.revision }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test tests/gangnam-demo.test.mjs tests/gangnam-corridor.test.mjs tests/gangnam-walk.test.mjs tests/gangnam-explorer.test.mjs
+      - run: node scripts/audit_gangnam_release.mjs
+      - name: Package reviewed source and publish assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ inputs.tag }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git archive --format=zip HEAD -o Accessible_Wayfinding_GitHub.zip
+          cp web/gangnam/assets/walk/overview.mp4 Gangnam_Elevator_Walkthrough.mp4
+          gh release upload "$RELEASE_TAG" portfolio/SK_AIGEN_Gangnam_Web_Portfolio.pdf portfolio/SK_AIGEN_Gangnam_Web_Overleaf.zip Gangnam_Elevator_Walkthrough.mp4 Accessible_Wayfinding_GitHub.zip --clobber
+          gh release edit "$RELEASE_TAG" --draft=false --latest

@@ -1,0 +1,22 @@
+{
+  "license": "Original synthetic imagery; no NAVER photographs used in these renders",
+  "files": {
+    "closed-scene.jpg": "fdcedb8871987b8b3f7d834964f8026e094588f21c5c258743382a4e845a6cde",
+    "closed.jpg": "c7cb8629554d4d5bdbb7a6ed59da4e77a8ff77a807f175bdac6205cb2edfbe35",
+    "closed.mp4": "0048e00ce082c39aff201ed1df32b66f8d1e903035fd33178f569af6da44a7d3",
+    "closed.vtt": "07c953c8e1c5700ba8873920ff85d25b870f61bbe234f8604f4496f6fbd601c8",
+    "loss-scene.jpg": "82a64022e1b39e20f2dacf354b691db1b1c7e6341493da7597bf3990fd4dbe33",
+    "loss.jpg": "551e1cc98ba80a5c7a844da059d17ee7f67732ed57025f586cfd986754523df9",
+    "loss.mp4": "a516376e45aab79a5a9a5e0e7c3c3e4b11ed978ac2954f505abc34ff72073989",
+    "loss.vtt": "905a562cb7e63fdbdd33249b188554e8db9210533dfcb4755501356c5cfec148",
+    "normal-scene.jpg": "2368789c3e6d9165da0a494657734c164ddc8f4a84753306bdb17ee5f23de3c4",
+    "normal.jpg": "46d6ec1f8e0d6d570070450a35c9fcace0b28207f8a6e36ce4052b565a583b53",
+    "normal.mp4": "95b0f7ccb74bdfa6fcb94f401480b7e4c13268d2087e42fa766cd2d247caf4d4",
+    "normal.vtt": "53aa41422c664f9ae60140d2f2bcc7f721eb00e8840c3f8f58b85d4d6693a5cb",
+    "overview.jpg": "46d6ec1f8e0d6d570070450a35c9fcace0b28207f8a6e36ce4052b565a583b53",
+    "overview.mp4": "60ad3897cd0a22e7baef144c442cfd9c2edb264c123a2af21eade2a983cac30b",
+    "results.json": "6d331215fb2f7ca339b0903075fb7cb63c4082d8b1cf6b333ce91ef31503d968",
+    "states.png": "1042cfeb4ca59cabd08dc65b516b5bca9d0f5e69690c05b967f63a917997db1f",
+    "timeline.json": "c83001a742e6a2ce15cbc5966cab10254b08ee62dabd1e1b72cf3ae929e22a49"
+  }
+}

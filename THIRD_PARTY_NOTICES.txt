@@ -1,0 +1,21 @@
+NAVER LABS Gangnam Station dataset
+https://www.visuallocalization.net/datasets/
+https://download.europe.naverlabs.com/kapture/GangnamStation_LICENSE.txt
+CC BY-NC-ND 4.0 (modified ver.); see web/gangnam/assets/naver-originals/LICENSE.txt.
+82 selected images are byte-identical to provider originals. The provider's existing face blur is preserved.
+Original IDs and SHA256: web/gangnam/data/asset-rights.json.
+Noncommercial educational demonstration. Photos are displayed separately from authored route diagrams.
+No provider endorsement. Image/data permissions are not replaced by the code's MIT license.
+
+Seoul Metro elevator inventory: https://www.data.go.kr/data/15044261/fileData.do
+Public permission notice: 이용허락범위 제한 없음.
+KRIC station routes: https://station.kric.go.kr/
+Facility and connectivity facts are paraphrased into a schematic. KRIC diagram images are not included.
+
+LightGlue: https://github.com/cvg/LightGlue
+OpenCV: https://opencv.org/
+Python dependencies are obtained separately; pretrained weights and full feature maps are not bundled.
+Model revision and weight SHA256 are recorded in the experiment configurations.
+
+Portfolio font: Pretendard / SIL Open Font License (included in Overleaf ZIP).
+Portfolio and web captures include attributed unmodified NAVER photographs.

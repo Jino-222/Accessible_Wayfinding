@@ -1,0 +1,93 @@
+{
+  "kind": "paired_learned_matching",
+  "config": {
+    "source_sha256": "807471aa4b152efc9321a33290ed90e1ec41dd4f958582f14e61a2672af4dc47",
+    "queries_sha256": "c2570b099417443d4628341a0fe9376af8957558838c2a5608ba5601f4b91080",
+    "methods": [
+      "retrieved_rootsift_pnp",
+      "retrieved_lightglue_pnp"
+    ],
+    "lightglue_commit": "5a650c444718caffc2669dc0094cde908f42dd73",
+    "lightglue_weights_sha256": {
+      "sift_lightglue_v0-1_arxiv.pth": "5b52b8d9982d43532dc042606b346bb9594c9f5a4bd6f64362c63866287b4ac0"
+    },
+    "top_candidates": 3,
+    "matching_features": 1024,
+    "retrieval_features": 2200,
+    "max_side": 960,
+    "cpu_threads": 2,
+    "torch_version": "2.15.0+cpu",
+    "opencv_version": "5.0.0",
+    "device": "cpu",
+    "split": "evaluation",
+    "limit": 0,
+    "scope": "Previously inspected B2 validation; paired system comparison, not independent hidden test"
+  },
+  "summary": [
+    {
+      "method": "retrieved_rootsift_pnp",
+      "total": 450,
+      "success_count": 340,
+      "accepted_count": 249,
+      "output_rate": 0.7555555555555555,
+      "acceptance_rate": 0.5533333333333333,
+      "position_median_m": 0.26669758927231835,
+      "position_p95_m": 92.35878069933494,
+      "orientation_median_deg": 2.1160344553994026,
+      "accepted_position_median_m": 0.15368369853138214,
+      "elapsed_p50_ms": 418.95584999292623,
+      "elapsed_p95_ms": 715.8896599925355,
+      "failures": {
+        "insufficient_correspondences": 63,
+        "no_retrieval_candidate": 1,
+        "pnp_failed": 46
+      },
+      "success_025m_2deg": 0.3088888888888889,
+      "accepted_success_025m_2deg": 0.25555555555555554,
+      "success_05m_5deg": 0.4,
+      "accepted_success_05m_5deg": 0.3111111111111111,
+      "success_1m_10deg": 0.42,
+      "accepted_success_1m_10deg": 0.32222222222222224,
+      "severe_accepted_count": 91,
+      "incorrect_accepted_count": 109,
+      "incorrect_accepted_all_fraction": 0.24222222222222223,
+      "false_accept_fraction": 0.43775100401606426
+    },
+    {
+      "method": "retrieved_lightglue_pnp",
+      "total": 450,
+      "success_count": 363,
+      "accepted_count": 329,
+      "output_rate": 0.8066666666666666,
+      "acceptance_rate": 0.7311111111111112,
+      "position_median_m": 0.17439825268925502,
+      "position_p95_m": 91.5845598445874,
+      "orientation_median_deg": 1.7428120871443789,
+      "accepted_position_median_m": 0.15596851253767957,
+      "elapsed_p50_ms": 1986.811500013573,
+      "elapsed_p95_ms": 2767.213620000984,
+      "failures": {
+        "insufficient_correspondences": 80,
+        "no_retrieval_candidate": 1,
+        "pnp_failed": 6
+      },
+      "success_025m_2deg": 0.3511111111111111,
+      "accepted_success_025m_2deg": 0.3288888888888889,
+      "success_05m_5deg": 0.45111111111111113,
+      "accepted_success_05m_5deg": 0.41333333333333333,
+      "success_1m_10deg": 0.46444444444444444,
+      "accepted_success_1m_10deg": 0.4266666666666667,
+      "severe_accepted_count": 113,
+      "incorrect_accepted_count": 143,
+      "incorrect_accepted_all_fraction": 0.31777777777777777,
+      "false_accept_fraction": 0.43465045592705165
+    }
+  ],
+  "assumptions": [
+    "Both methods use the same top-3 RootSIFT-vote mapping images, top-1024 SIFT features and registered depth.",
+    "NN ratio matching versus pretrained SIFT-LightGlue; no model training.",
+    "Mapping candidate selection and ranking use no evaluation truth. Scoring loads truth only after prediction files are written.",
+    "Elapsed time charges shared query/retrieval/map-cache preparation to both methods; offline model/map load excluded.",
+    "Fixed held-out session was already inspected in the earlier study. This follow-up is not an independent benchmark."
+  ]
+}

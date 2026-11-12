@@ -1,0 +1,226 @@
+{
+  "status": "executed",
+  "run": "study-v4",
+  "exporter_sha256": "fb0617615a3210891b2ad0d89e57b378af38d810af8b44438638dbf5943fed6f",
+  "scene_revision": "gangnam-walk-v2",
+  "scope": "Synthetic Unity XR Simulation; historical Gangnam trajectory only",
+  "length_m": 22.060803552187107,
+  "runs": [
+    {
+      "id": "normal",
+      "label": "엘리베이터까지 이동",
+      "observations": 69,
+      "accepted": 68,
+      "accurate": 68,
+      "visible": 62,
+      "visible_inaccurate": 0,
+      "position_p50_m": 0.014546411949538277,
+      "position_p95_m": 0.08018450118726855,
+      "http_p50_ms": 75.68168640136719,
+      "final_state": "arrived",
+      "duration_s": 36.733333333333334,
+      "events": [
+        {
+          "time_s": 0.0,
+          "state": "position_uncertain"
+        },
+        {
+          "time_s": 0.5333333611488342,
+          "state": "confirming"
+        },
+        {
+          "time_s": 1.600000023841858,
+          "state": "guiding"
+        },
+        {
+          "time_s": 34.66666793823242,
+          "state": "arrived"
+        }
+      ],
+      "render_events": [
+        {
+          "time_s": 0.0,
+          "state": "position_uncertain"
+        },
+        {
+          "time_s": 0.5333333611488342,
+          "state": "confirming"
+        },
+        {
+          "time_s": 1.600000023841858,
+          "state": "guiding"
+        },
+        {
+          "time_s": 34.66666793823242,
+          "state": "arrived"
+        }
+      ],
+      "trace_sha256": "9a060a5ac37ec804b4e3391a68c14826083844e976c73dfb771b6c9fdf25b298",
+      "video_trace_sha256": "a75b07b00e76eb7a0b2689318a7c62fbdcfc2b3d939287be893cccfe4bc8103e"
+    },
+    {
+      "id": "loss",
+      "label": "영상 상실과 복구",
+      "observations": 76,
+      "accepted": 70,
+      "accurate": 70,
+      "visible": 62,
+      "visible_inaccurate": 0,
+      "position_p50_m": 0.016176150355633453,
+      "position_p95_m": 0.07067584087930172,
+      "http_p50_ms": 69.30923461914062,
+      "final_state": "arrived",
+      "duration_s": 40.46666666666667,
+      "events": [
+        {
+          "time_s": 0.0,
+          "state": "confirming"
+        },
+        {
+          "time_s": 1.0666667222976685,
+          "state": "guiding"
+        },
+        {
+          "time_s": 12.266666412353516,
+          "state": "position_uncertain"
+        },
+        {
+          "time_s": 15.466666221618652,
+          "state": "confirming"
+        },
+        {
+          "time_s": 16.53333282470703,
+          "state": "guiding"
+        },
+        {
+          "time_s": 38.400001525878906,
+          "state": "arrived"
+        }
+      ],
+      "render_events": [
+        {
+          "time_s": 0.0,
+          "state": "confirming"
+        },
+        {
+          "time_s": 1.0666667222976685,
+          "state": "guiding"
+        },
+        {
+          "time_s": 12.0,
+          "state": "position_uncertain"
+        },
+        {
+          "time_s": 15.466666221618652,
+          "state": "confirming"
+        },
+        {
+          "time_s": 16.53333282470703,
+          "state": "guiding"
+        },
+        {
+          "time_s": 38.400001525878906,
+          "state": "arrived"
+        }
+      ],
+      "trace_sha256": "befdd9ef46310bedccb0aa89ad354e1b4bfb09ab596f50cc73e51a1a754c13ee",
+      "video_trace_sha256": "3d10438b9c15c8afecba6a74c5fb1624f029de814e421d685ec3334dc8cf0e69"
+    },
+    {
+      "id": "closed",
+      "label": "엘리베이터 접근 중단",
+      "observations": 29,
+      "accepted": 29,
+      "accurate": 29,
+      "visible": 12,
+      "visible_inaccurate": 0,
+      "position_p50_m": 0.015869894065686462,
+      "position_p95_m": 0.027487847070015784,
+      "http_p50_ms": 70.95718383789062,
+      "final_state": "blocked",
+      "duration_s": 15.066666666666666,
+      "events": [
+        {
+          "time_s": 0.0,
+          "state": "confirming"
+        },
+        {
+          "time_s": 1.0666667222976685,
+          "state": "guiding"
+        },
+        {
+          "time_s": 7.4666666984558105,
+          "state": "blocked"
+        }
+      ],
+      "render_events": [
+        {
+          "time_s": 0.0,
+          "state": "confirming"
+        },
+        {
+          "time_s": 1.0666667222976685,
+          "state": "guiding"
+        },
+        {
+          "time_s": 7.0,
+          "state": "blocked"
+        }
+      ],
+      "trace_sha256": "6c5c5b49f8a74a75496aae71fc84546974edd761c12f05c7a2350795406fb6a4",
+      "video_trace_sha256": "6f2c2b7f62dfaf6d465b748df327be1863e2fad40819ab2dca6c3204b07b1a22"
+    }
+  ],
+  "accuracy": "Position <=0.5 m AND orientation <=5 degrees; denominator includes every image query, including failures",
+  "timing": "15 fps is video playback. Image queries every 8 video frames (0.533 logical s); wall HTTP latency is measured separately. Offline retimed capture.",
+  "movement": "Scripted user follows the authored path and pauses while guidance is unavailable. Manual control is available in Unity. This does not demonstrate autonomous navigation.",
+  "source_snapshot": {
+    "recorded": "before execution",
+    "files": {
+      "research/gangnam_walk_map.py": "2af1ff3ebb8d22445386b7ad4c0118c759213996f7bce437e3296f6b9e07add5",
+      "research/gangnam_walk_prepare.py": "d3df43f145101ee95533d05bc263c6299900694a0e2aa86f33f6b5330b2594f5",
+      "research/gangnam_walk_report.py": "42ab146b9e6d392933605954468b3e778eb8e566d722cb7bd57330c1a97c7dae",
+      "research/gangnam_walk_service.py": "84c0f75c78e71b12c759b018b210f095682d1058212ed7de23812fb5148cb02b",
+      "research/gangnam_walk_snapshot.py": "076213709f983f11ee86b19f4f5181b9f6e9644fe1ecc7e7f293635778a7d441",
+      "unity/AccessibleStation/Assets/Editor/GangnamWalkBuilder.cs": "61b56246a9d42a639d4115025e00c9761caad9b358f11a4dfacc4cf070475a9c",
+      "unity/AccessibleStation/Assets/Scripts/GangnamWalkEnvironment.cs": "bff74a4aac1c5bac1f75251e66b079e2bdebf4b0a8a43dfa3d8f5601a026ff60",
+      "unity/AccessibleStation/Assets/Scripts/GangnamWalkthrough.cs": "18dc3f12434035a286443a14d92f6a6ea552ece8e799fdd119f49a712b169c68",
+      "unity/AccessibleStation/Assets/StreamingAssets/GangnamWalk/elevator.png": "79d6b76bf2bce381beff29ade9f060c8fe0659b1807981474eacc2c829bc6f02",
+      "unity/AccessibleStation/Assets/StreamingAssets/GangnamWalk/lift-info.png": "fbe5a05b277aeb6d2c1d913f770c6a7b9d2c40791428bc01c6b650911debe5c8",
+      "unity/AccessibleStation/Assets/StreamingAssets/GangnamWalk/poster-00.png": "1b51f44aa60800fdd8c8bb66f1511f01f9c2bde82f1c762a25bd173ce7cff9ee",
+      "unity/AccessibleStation/Assets/StreamingAssets/GangnamWalk/poster-01.png": "8a17974a3f5483e2165bdfe84343b0608a25343b78344a9cb4d8ed78beef8eba",
+      "unity/AccessibleStation/Assets/StreamingAssets/GangnamWalk/poster-02.png": "60f34a951ab05880f78cccde92d1b84d4797558a2272ea38b80d331fb9cac839",
+      "unity/AccessibleStation/Assets/StreamingAssets/GangnamWalk/poster-03.png": "5a7549d47184ad593f32b2d8d55f79104247fd5061a158bcc9f9100eede15c49",
+      "unity/AccessibleStation/Assets/StreamingAssets/GangnamWalk/poster-04.png": "ecf0eec4c2b95858123029d23028e4ca382386c98b267ebf16292ab1c5e362f0",
+      "unity/AccessibleStation/Assets/StreamingAssets/GangnamWalk/poster-05.png": "b8df19603a7f7c2b4b3a0fe4267d5648505900f51693624c659d7f52743d71e2",
+      "unity/AccessibleStation/Assets/StreamingAssets/GangnamWalk/poster-06.png": "7ca8d19f782ee47c7424d0c98242317ebfe9ec2d29664a9261c76aec05bd3520",
+      "unity/AccessibleStation/Assets/StreamingAssets/GangnamWalk/poster-07.png": "e4a45b866f85c501f0719c8e57121a7e1e360f51f5238d4a7308aaa0797cefa3",
+      "unity/AccessibleStation/Assets/StreamingAssets/GangnamWalk/poster-08.png": "033dd3a4a63b363917d963056b45585f8e08d78339e966f5e1c9eafc48e270fa",
+      "unity/AccessibleStation/Assets/StreamingAssets/GangnamWalk/poster-09.png": "7b77271488c7ccb4fd6906472d6c24d9383b9107ccdc9918724b2fff3f82b450",
+      "unity/AccessibleStation/Assets/StreamingAssets/GangnamWalk/poster-10.png": "6c7c2a44003f97f475c88044adc224bf42e772b33767a8a05f7cdbc537f2dd4e",
+      "unity/AccessibleStation/Assets/StreamingAssets/GangnamWalk/poster-11.png": "67cc21bb59b9d23d64aae41f567c08a5a6562dc63242bb35a0fa1ba8e205c8b1",
+      "unity/AccessibleStation/Assets/StreamingAssets/GangnamWalk/poster-12.png": "c76a0e69673d098e269e1b85c0f6002c8cb81a529c8876f83672ed5ef14445b1",
+      "unity/AccessibleStation/Assets/StreamingAssets/GangnamWalk/poster-13.png": "e0230eaa65909ac69872ef74e6c353114ab45040733784c3e8c7451692fd3907",
+      "unity/AccessibleStation/Assets/StreamingAssets/GangnamWalk/poster-14.png": "7ed8be7c12ebed02fbced5a395d5d7f4c16633da40fb46122fbd58228bd838f7",
+      "unity/AccessibleStation/Assets/StreamingAssets/GangnamWalk/poster-15.png": "83586787e2822855ce03e1277eb376c13b1838defbd1bfeb71b3e76b33b094de",
+      "unity/AccessibleStation/Assets/StreamingAssets/GangnamWalk/poster-16.png": "2f1b01d5c6474449241695cc8144588d6ba0b06638cc9e3291d24ec00e5158a2",
+      "unity/AccessibleStation/Assets/StreamingAssets/GangnamWalk/poster-17.png": "cde29e42817a13789b528729591f26e04f99e1a5265907da57557b222fe9c53a",
+      "unity/AccessibleStation/Assets/StreamingAssets/GangnamWalk/wayfinding.png": "637732c15a0a94212fe4c0e663f195c62ab736d1f7a08df383d0630b472ab185",
+      "unity/AccessibleStation/Assets/StreamingAssets/gangnam-walk.json": "7e4d51ab87c2e72e78bfe88813d28299329bd89c32fce42508763b3d84cc4187",
+      "research/localizer.py": "8bb857d8308bca66e0e4172f6b0ebc6024ef36c71f157900909a52f5ea2d7328",
+      "research/geometry.py": "483f9a0d940d5655193b261675be5d71a5b0a8e39049f517ab680e6876b9cbd5",
+      "research/gangnam.py": "fda1a761a89d972d1bd5d39a4bc0aee28d043144e8fb31dfd481ee47c147a9c0",
+      "research/build_rgbd_map.py": "b5ca25515fe8b0b58b2fcf9129063ae6fe5d2c5b7a7438c66d980e1589a5439b",
+      "research/requirements-gangnam-walk.txt": "b1b34a8e81e6631475a30a161aceb617bcc15a04a9937e02d36449d5da10720e",
+      "unity/AccessibleStation/Packages/manifest.json": "b561fc873e36bac7e5249d263228d0f6b06d3c637b892161f7f8cd40ae13629d"
+    },
+    "map_sha256": "8226ecb1b3db4ade0d2d19846b7d3b811ca3cee810c8b129561bf33638ec9cd0"
+  },
+  "assumptions": [
+    "Identical synthetic scene for map and queries with different viewpoints and camera heights",
+    "Unique authored signs and posters improve feature matching",
+    "No present-day Gangnam field, device or user validation"
+  ],
+  "representative_duration_s": 60.0,
+  "representative_edit": "Normal full run, loss seconds 10–22, closure seconds 5–end, final still hold if needed"
+}

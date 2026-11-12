@@ -1,0 +1,14 @@
+name: Check demo
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test tests/gangnam-demo.test.mjs tests/gangnam-corridor.test.mjs tests/gangnam-walk.test.mjs tests/gangnam-explorer.test.mjs
+      - run: node scripts/audit_gangnam_release.mjs

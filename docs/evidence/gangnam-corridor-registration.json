@@ -1,0 +1,245 @@
+{
+  "id": "gangnam-b2-observed-corridor",
+  "nodes": [
+    {
+      "id": "corridor-a",
+      "label": "승강장 관측지점 A",
+      "floor": "B2",
+      "position": [
+        765.101255228389,
+        -588.1640691513329,
+        -4.862915513993761
+      ],
+      "reference_image": "assets/naver-originals/map-corridor-a.jpg",
+      "reference_id": "2019-12-03_11-43-39/images/40027089_1575341540779869.jpg",
+      "source": "mapping_camera_position",
+      "annotation": "visually inspected public mapping photograph",
+      "current_facility_id": null,
+      "operation": "unknown"
+    },
+    {
+      "id": "elevator-approach",
+      "label": "엘리베이터 앞 관측지점",
+      "floor": "B2",
+      "position": [
+        744.2436695328794,
+        -594.8432144432836,
+        -4.891727218372174
+      ],
+      "reference_image": "assets/naver-originals/map-elevator-approach.jpg",
+      "reference_id": "2019-12-03_11-43-39/images/40027089_1575341564779869.jpg",
+      "source": "mapping_camera_position",
+      "annotation": "visually inspected public mapping photograph",
+      "current_facility_id": null,
+      "operation": "unknown"
+    },
+    {
+      "id": "corridor-b",
+      "label": "계단 인근 관측지점 B",
+      "floor": "B2",
+      "position": [
+        723.5928162699158,
+        -602.9794263283674,
+        -4.955972364441288
+      ],
+      "reference_image": "assets/naver-originals/map-corridor-b.jpg",
+      "reference_id": "2019-12-03_11-43-39/images/40027089_1575341588779869.jpg",
+      "source": "mapping_camera_position",
+      "annotation": "visually inspected public mapping photograph",
+      "current_facility_id": null,
+      "operation": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "a": "corridor-a",
+      "b": "elevator-approach",
+      "kind": "walk",
+      "stairs": false,
+      "polyline": [
+        [
+          765.101255228389,
+          -588.1640691513329,
+          -4.862915513993761
+        ],
+        [
+          763.3285202038974,
+          -588.7305360946187,
+          -4.869264090529097
+        ],
+        [
+          761.5579570102159,
+          -589.1998833551945,
+          -4.864735582569034
+        ],
+        [
+          759.8457996517127,
+          -589.7328961664674,
+          -4.870879327454763
+        ],
+        [
+          758.01780300089,
+          -590.0600781291107,
+          -4.8853178699879445
+        ],
+        [
+          756.2109568737734,
+          -590.3121407746187,
+          -4.887016398766686
+        ],
+        [
+          754.4227022200023,
+          -590.7298548469736,
+          -4.878539907520582
+        ],
+        [
+          752.669312759575,
+          -591.4338019673628,
+          -4.904365349219912
+        ],
+        [
+          750.9714922208868,
+          -592.1761548854573,
+          -4.9031962983745725
+        ],
+        [
+          749.165736914659,
+          -592.5785184363415,
+          -4.9024992006344394
+        ],
+        [
+          747.509094199465,
+          -593.3833693319434,
+          -4.894678003232056
+        ],
+        [
+          746.0342020828987,
+          -594.357420701145,
+          -4.891133143751648
+        ],
+        [
+          744.2436695328794,
+          -594.8432144432836,
+          -4.891727218372174
+        ]
+      ],
+      "sampled_path_length_m": 22.0608035521871,
+      "length_method": "XY length along mapping camera samples",
+      "width_m": null,
+      "slope": null,
+      "field_verified": false
+    },
+    {
+      "a": "elevator-approach",
+      "b": "corridor-b",
+      "kind": "walk",
+      "stairs": false,
+      "polyline": [
+        [
+          744.2436695328794,
+          -594.8432144432836,
+          -4.891727218372174
+        ],
+        [
+          742.4734138164732,
+          -595.3077977616388,
+          -4.890505716022422
+        ],
+        [
+          740.7070697147523,
+          -595.8631803410819,
+          -4.909337886929128
+        ],
+        [
+          738.9819673659921,
+          -596.5038435886898,
+          -4.9095012740133805
+        ],
+        [
+          737.220524109532,
+          -597.1145631357092,
+          -4.923234891154881
+        ],
+        [
+          735.5128263935061,
+          -597.6915003341574,
+          -4.928922672392098
+        ],
+        [
+          733.7271280978067,
+          -598.3861449004808,
+          -4.916115974497728
+        ],
+        [
+          732.0068333523558,
+          -599.0779956526202,
+          -4.929390083877821
+        ],
+        [
+          730.2774601615998,
+          -599.7224910679121,
+          -4.920603607251929
+        ],
+        [
+          728.5502977706973,
+          -600.3863390080046,
+          -4.927257337811372
+        ],
+        [
+          726.8880731101176,
+          -601.1800251236566,
+          -4.9454507632833735
+        ],
+        [
+          725.2480954658523,
+          -602.0460555822779,
+          -4.937110948504155
+        ],
+        [
+          723.5928162699158,
+          -602.9794263283674,
+          -4.955972364441288
+        ]
+      ],
+      "sampled_path_length_m": 22.25191385455096,
+      "length_method": "XY length along mapping camera samples",
+      "width_m": null,
+      "slope": null,
+      "field_verified": false
+    }
+  ],
+  "rights": [
+    {
+      "file": "assets/naver-originals/map-corridor-a.jpg",
+      "original_id": "2019-12-03_11-43-39/images/40027089_1575341540779869.jpg",
+      "sha256": "b9a206483ba684e3a9fe63dd731b3c0d93d395b1dde8aeaedbecf65b418b6105",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/map-elevator-approach.jpg",
+      "original_id": "2019-12-03_11-43-39/images/40027089_1575341564779869.jpg",
+      "sha256": "56646f131ffbbb74f06d00eb13caf5445b296e756ce1244f1dd6ada917c713b4",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/map-corridor-b.jpg",
+      "original_id": "2019-12-03_11-43-39/images/40027089_1575341588779869.jpg",
+      "sha256": "884185b56803e5f14221b1020dbde08c448e1c5a6d4bc4f4223dbceb888f7a32",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    }
+  ],
+  "coordinates": "NAVER mapping camera-to-world; horizontal XY. Z is not a floor number.",
+  "destination_evidence": "Mapping image 40027089_1575341564779869.jpg shows elevator, overhead elevator arrow and B1/B2 panel.",
+  "identity": "B2 elevator approach observed in historical imagery; current elevator serial number not established",
+  "scope": "Short recorded corridor only. No elevator boarding, no B1 or street routing in these coordinates.",
+  "connectivity": "Recorded mapping trajectory and visual inspection; wheelchair width/slope not verified",
+  "route_direction": "Bidirectional for replay experiment only; current passage restrictions unverified",
+  "input_truth": "Mapping poses only; no validation/test ground truth used",
+  "completion": "Approach checkpoint in demonstration; not proof of actual arrival or safe boarding"
+}

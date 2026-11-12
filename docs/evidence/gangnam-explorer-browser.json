@@ -1,0 +1,60 @@
+{
+  "status": "verified_local",
+  "checks": [
+    {
+      "check": "recovered_after_moving",
+      "count": "3 / 3",
+      "distance": "13.7 m",
+      "state": "엘리베이터 방향으로 이동"
+    },
+    {
+      "check": "closed_at_destination",
+      "distance": "—",
+      "hudHidden": true,
+      "state": "엘리베이터 접근 중단"
+    },
+    {
+      "check": "reopened_arrival",
+      "distance": "접근 완료",
+      "hudHidden": true,
+      "state": "가상 엘리베이터 앞 도착"
+    },
+    {
+      "check": "tab_suspends",
+      "count": "0 / 3",
+      "state": "이동을 잠시 멈췄습니다"
+    }
+  ],
+  "viewports": [
+    {
+      "buttonHeight": 52.6953125,
+      "canvasWidth": 311,
+      "client": 345,
+      "scroll": 345,
+      "viewport": 360
+    },
+    {
+      "buttonHeight": 52.6953125,
+      "canvasWidth": 341,
+      "client": 375,
+      "scroll": 375,
+      "viewport": 390
+    },
+    {
+      "buttonHeight": 52.6953125,
+      "canvasWidth": 381,
+      "client": 415,
+      "scroll": 415,
+      "viewport": 430
+    }
+  ],
+  "legacy": {
+    "video_seconds": 60,
+    "video_pauses_on_tab_change": true,
+    "corridor_example": true,
+    "closed_route_blocked": true,
+    "evaluation_example": true
+  },
+  "scope": "Browser viewport emulation, not physical phone or image-localization accuracy",
+  "exported_report_verified": true
+}

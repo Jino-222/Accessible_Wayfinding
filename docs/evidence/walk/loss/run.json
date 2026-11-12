@@ -1,0 +1,12 @@
+{
+    "condition": "loss",
+    "final_state": "arrived",
+    "prediction_file": "loss-53d021ff94b14e4299fb87fc0b0963e7.jsonl",
+    "unity_version": "6000.3.28f1",
+    "movement": "scripted user along registered path; image-only guidance; video sampled at 15 fps, not real-time inference benchmark",
+    "video_frames": 607,
+    "observations": 76,
+    "fps": 15.0,
+    "duration_s": 40.46666717529297,
+    "xr_tracking": true
+}

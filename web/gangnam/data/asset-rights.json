@@ -1,0 +1,689 @@
+{
+  "assets": [
+    {
+      "file": "assets/naver-originals/map-corridor-a.jpg",
+      "original_id": "2019-12-03_11-43-39/images/40027089_1575341540779869.jpg",
+      "sha256": "b9a206483ba684e3a9fe63dd731b3c0d93d395b1dde8aeaedbecf65b418b6105",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/map-corridor-b.jpg",
+      "original_id": "2019-12-03_11-43-39/images/40027089_1575341588779869.jpg",
+      "sha256": "884185b56803e5f14221b1020dbde08c448e1c5a6d4bc4f4223dbceb888f7a32",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/map-elevator-approach.jpg",
+      "original_id": "2019-12-03_11-43-39/images/40027089_1575341564779869.jpg",
+      "sha256": "56646f131ffbbb74f06d00eb13caf5445b296e756ce1244f1dd6ada917c713b4",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324954_1575340705824000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324954_1575340705824000.jpg",
+      "sha256": "da5b83faaedff3f05c8447f83f66fbe77285636e0f996a1ee5358134c25cd115",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324954_1575340707784000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324954_1575340707784000.jpg",
+      "sha256": "b75348a5c093741afac6f7c5c6b6d7673f21ef33b422759b2965043f0be9efca",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324954_1575340709928000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324954_1575340709928000.jpg",
+      "sha256": "29858d5a370163c119e3add3aaf95289b06d520ee9ca3a3d55b53db683a85110",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324954_1575340711826000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324954_1575340711826000.jpg",
+      "sha256": "3b94915ff68473797cfaab8ec8a3e7787c4c7664875637b9b51c017ef654319b",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324954_1575340713802000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324954_1575340713802000.jpg",
+      "sha256": "253d550a2ef21914be5387d3948a20038431f7846fd32f56304e7e1e686db86b",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324954_1575340716116000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324954_1575340716116000.jpg",
+      "sha256": "6072088169ebb790899166f942506633425d4a45078429b3fa988733d03d4d48",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324954_1575340717756000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324954_1575340717756000.jpg",
+      "sha256": "afdb2fec55754df1c97479bc5dc60d5b0e73d1b2be7bffe73700241587b918e2",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324954_1575340719822000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324954_1575340719822000.jpg",
+      "sha256": "d6cd64eb74a8450898e33947f136f26995dfc183ce06d5104285be187ca1dd7b",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324954_1575340721801000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324954_1575340721801000.jpg",
+      "sha256": "073a40ea879da80bc7681e0d03e2036e6dff2a68d5d30d696b4037963c0e5fd1",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324954_1575340723843000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324954_1575340723843000.jpg",
+      "sha256": "1c951acace1c3ea587a55d6df4276dff9ec350e19daf3c283786115b3f886143",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324954_1575340725812000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324954_1575340725812000.jpg",
+      "sha256": "c8b09c5d5e437642f2c18323b3cd1c0b85ffe10a38cc2e4a2b60c7534f7d861f",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324954_1575340727824000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324954_1575340727824000.jpg",
+      "sha256": "d11fb7a0d1f92df8c4669bcc52310e7aaf86bb7d7f9d4f9d9efa67e33707b769",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324954_1575340729798000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324954_1575340729798000.jpg",
+      "sha256": "e4f69eff85d54fdd6b0fe3c6414243b94c1ffd811b27a933724b664a66e50401",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324954_1575340731832000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324954_1575340731832000.jpg",
+      "sha256": "e5449cb8b179267d2a9564b38135573a595ab6fc6394bc31a8a67863c16d1b9f",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324954_1575340733811000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324954_1575340733811000.jpg",
+      "sha256": "8bf5c169470a883a76038cd142bc8910b11384c504efce4616bdf280fd0e0ed9",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324954_1575340735813000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324954_1575340735813000.jpg",
+      "sha256": "632e8ae1cab431c6592ffbe49fdc006dbc0d47d8ba61c4f948b2e5902d74ab40",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324954_1575340737743000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324954_1575340737743000.jpg",
+      "sha256": "6696885a21b44e569eac27dbb7d795ac30982bd0c97364f8d5871a6af06bfcfc",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324954_1575340739747000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324954_1575340739747000.jpg",
+      "sha256": "d36f43ac377e1a204e977483d57f08f3ca0667316dc5299726cc1ce6825fcf0d",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324954_1575340742116000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324954_1575340742116000.jpg",
+      "sha256": "55d0112cda06bbd299518f4f50069730e3a1639c73b11231ef47670e2a52d9a6",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324954_1575340743823000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324954_1575340743823000.jpg",
+      "sha256": "04665de5143afce0d383be9c4645e8053c5d9800b6e10083415971d7fbe359e7",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324954_1575340745833000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324954_1575340745833000.jpg",
+      "sha256": "809f34891e990f58b298b29fe08c1498f67241f8a54bb7015e01676c19bae3c1",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324954_1575340747837000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324954_1575340747837000.jpg",
+      "sha256": "cacdd0053651671192d6704b4ebc36714236f84a4694a3a962a17b451ae42b7a",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324954_1575340749741000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324954_1575340749741000.jpg",
+      "sha256": "6e6a0f555e9ba4816e21152b00bbca2e85a37fd38fb24a498321e10a5b4f5692",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324954_1575340751837000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324954_1575340751837000.jpg",
+      "sha256": "7f3d5ed03bd5413f431a59c1dd504c8076522986e00c48fd05f75a027e247e42",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324954_1575340754105000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324954_1575340754105000.jpg",
+      "sha256": "1bf8ad299583a8ad8421f3bb7d81a4be9a958ba6363de9d201d8f45623b32bf8",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324954_1575340755791000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324954_1575340755791000.jpg",
+      "sha256": "419221048e2e17f9006148ee33eefa0dbe03254749198345239df221791c468e",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340679672000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340679672000.jpg",
+      "sha256": "a73fe033699f47ca54b315cd075897501843b9e62d8abd509613635fcc6d097c",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340681736000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340681736000.jpg",
+      "sha256": "cbea654512634f5fb1e4fdeaa33ae172de28f4b6ef38c856fb5effc89a76e67f",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340683761000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340683761000.jpg",
+      "sha256": "983db4d1f90e75f0c22b3622ac2268f455566314d3a413912f279c87b6d4a90d",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340685651000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340685651000.jpg",
+      "sha256": "784bac08a980a4d58ddbd442e49f08570d9289d77a8da2cec517a91fe4ed8872",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340687683000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340687683000.jpg",
+      "sha256": "626e77653fa37bd161f8abcfa1c39ab8cc9d3eeb89fb28009bfc9f9be78be5ee",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340689842000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340689842000.jpg",
+      "sha256": "1fcdf55319d196bea79949652df9d9bf99badca47b7de3b3aac9be0ad39c4dde",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340692070000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340692070000.jpg",
+      "sha256": "2935d94c8f156f7154cb45f009e31a3ba67b5fe7fb064e20ad32cb55f59e46b5",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340694675000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340694675000.jpg",
+      "sha256": "7ec21b423d3c29d3c3d950adb34cb71e59e394a19cdaa9c74379dc7e7a8d56c0",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340696725000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340696725000.jpg",
+      "sha256": "48cdfed9d974ad1c5c601fb89a7edfbe5401eaefdf4921d2ba8f58585248e891",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340699080000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340699080000.jpg",
+      "sha256": "ef829d920a677bee3d6af4fb646be8f3d5b72752a3318da67b65b92346489890",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340701211000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340701211000.jpg",
+      "sha256": "b1900c90aaecb1db8ecd6c4ba36c9d7bd711d65f3e937e0e9eaa10fa6bd71968",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340703721000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340703721000.jpg",
+      "sha256": "e4368d22e69e76a4f7267abd56ab1172931186ac7cf39965e7bb5707f2b20689",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340705748000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340705748000.jpg",
+      "sha256": "bef31576d015ab94df53838bccd644c645f317808f7c0c3c72ce791c07d21ee8",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340707761000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340707761000.jpg",
+      "sha256": "928be58c68efb9a39a577ee91d3154801d589389e69ceb65a1903fd6ae176709",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340709740000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340709740000.jpg",
+      "sha256": "7e1c8d8f6dea35a98898985e4ca3bf0645bfe2e69522401cce757ec1d9b52cad",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340711716000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340711716000.jpg",
+      "sha256": "0b157568a989157c1a6cb87303503a6f11eb33af6e936bb138057af4c4bd0d63",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340713732000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340713732000.jpg",
+      "sha256": "7baa55b9024a875b5f5eec0b66dd96be5b91f68735f7acb56d87a67c583d0ac9",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340715739000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340715739000.jpg",
+      "sha256": "e605df7203f8ce303541242d33482e43d25b6a79e1fe3b08ae809a130c442c6d",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340717676000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340717676000.jpg",
+      "sha256": "b0f7ee512e67791fb975b8e86c9ab17a93ae2ff56c5c21519cdc939c23f97179",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340720055000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340720055000.jpg",
+      "sha256": "bea938bf3c32f84c6d0ae8914c02ce1e872ca91bb2fda1f2283bcd2554d975ed",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340721659000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340721659000.jpg",
+      "sha256": "3d4b661ec4105b8f519354b5092514fab2818635facdc758e9de080ae7d7eedf",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340723669000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340723669000.jpg",
+      "sha256": "7917bbeb35bbee4c6310a998bf6180f661500884315d2f0070eab7f372ce004a",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340725677000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340725677000.jpg",
+      "sha256": "a83ce50ad2353f5ecb9f999d4ae90b0bc4cdc111156da57b4014403604d7a627",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340727725000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340727725000.jpg",
+      "sha256": "b193aaebee4aab3d35369b6dbc20b71f2f72a16ed35682b3d53e49e96cac43bb",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340729734000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340729734000.jpg",
+      "sha256": "2b41aa21c16f927b0b9b8eb329ba06ab88afbf09f8291ff7933b3268730687bd",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340731742000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340731742000.jpg",
+      "sha256": "bf6a1a226f7b1687b11b24cca745a24fc2ec208dfaf17733d41306f8d571d91e",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340733747000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340733747000.jpg",
+      "sha256": "5487dd14bf0b0ceda1f507d2e185093a77f233123751992adc74c1c20c6bad39",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340735667000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340735667000.jpg",
+      "sha256": "2d9dc7313eb65acbcdab268e0292694996c63fdc3bd9125c516d93bf6e08ac18",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340737754000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340737754000.jpg",
+      "sha256": "657c51cebbc4c39549e723928b8ce2cf15a73f0a0929e636a1937d1011760cd6",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340740066000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340740066000.jpg",
+      "sha256": "64692d38a37a67c6a9951d561c0f0849d0dacc586868bc6b099f8280c25a8f38",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340741737000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340741737000.jpg",
+      "sha256": "a5a19ba768731679770acceb6cdd0be11ca9be11a5de0005c1b1d63d5c557f8f",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340743674000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340743674000.jpg",
+      "sha256": "c7cf6b117e27880a215224ee864064d1ed9c06ba47251f455e9f094de916efb8",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340745778000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340745778000.jpg",
+      "sha256": "c977273e8337c639f98743052d4c33bda7b02f13c1c13073cba026faaec5b1d7",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340747667000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340747667000.jpg",
+      "sha256": "17c59bf72384a0594b1cb98b491dd683904488c3bfd690fa1ecc0aea36bf9d75",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340749664000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340749664000.jpg",
+      "sha256": "832bcd34337d6c022890bf3fde7db796916fdf2de9588d418afa52f383ec6454",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340751736000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340751736000.jpg",
+      "sha256": "5b860907cebf0083fa0f5c32ca824748523ec02cec11918349a6dd633bb160f9",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340753752000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340753752000.jpg",
+      "sha256": "ddf3481459ce9c06525761a4ebffca7309c62f8e99d7114b78ab039c142008cb",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340755751000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340755751000.jpg",
+      "sha256": "4c4479aede9a7dea564c224b2b328e2e03275c2959a335bed1494150365841d0",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340757729000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340757729000.jpg",
+      "sha256": "a05cd45a11801e6bfe62b2c191235b92711528df09dda7a523e929661d424ddb",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340759735000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340759735000.jpg",
+      "sha256": "0f75c5492150ec63cb160bfaadcda51e4aa0455a6feb0135f694ab7032c2990c",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/test-AC01324955_1575340761754000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324955_1575340761754000.jpg",
+      "sha256": "816c88312e905fad85a646f6661b786e783173ad5e1091d6e406a632138a293c",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)"
+    },
+    {
+      "file": "assets/naver-originals/view-000.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324968_1575340174661000.jpg",
+      "sha256": "b29c1e884a7348bf73bb0ca1e73f3507bc580f069a9b3334076e0fe8f169c07e",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)",
+      "use": "Unmodified individual images, noncommercial educational demonstration; no image overlays."
+    },
+    {
+      "file": "assets/naver-originals/view-006.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324968_1575340186647000.jpg",
+      "sha256": "36ccdbe1d0338885315d050b63d7f33187c289f16e03bc32b20976a5120a3b1a",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)",
+      "use": "Unmodified individual images, noncommercial educational demonstration; no image overlays."
+    },
+    {
+      "file": "assets/naver-originals/view-012.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324968_1575340380721000.jpg",
+      "sha256": "2b7dc0f2d1b2827ee4633f83161422c82216c9ea6b699f6f32067b7102948f83",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)",
+      "use": "Unmodified individual images, noncommercial educational demonstration; no image overlays."
+    },
+    {
+      "file": "assets/naver-originals/view-030.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324968_1575340416733000.jpg",
+      "sha256": "ac46d7b75a0c6fdab28660ce8980eceecb32deac4fd853fb9f48439db20ecb7e",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)",
+      "use": "Unmodified individual images, noncommercial educational demonstration; no image overlays."
+    },
+    {
+      "file": "assets/naver-originals/view-048.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324968_1575340453666000.jpg",
+      "sha256": "ae38db3718cfe1cd217bb9ce36c71da5bb7dd104799b809bd3e7394741fb34a8",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)",
+      "use": "Unmodified individual images, noncommercial educational demonstration; no image overlays."
+    },
+    {
+      "file": "assets/naver-originals/view-054.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324968_1575340465659000.jpg",
+      "sha256": "9f49295fba1b9fd229dc04a8bbfa8229b27e0a00ecd63f43386a934ff7d8d566",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)",
+      "use": "Unmodified individual images, noncommercial educational demonstration; no image overlays."
+    },
+    {
+      "file": "assets/naver-originals/view-072.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324968_1575340503737000.jpg",
+      "sha256": "3a06a55e1abfb3bc61bd2e716905b866f9cec833e044871a5df4bfa21aeb30a5",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)",
+      "use": "Unmodified individual images, noncommercial educational demonstration; no image overlays."
+    },
+    {
+      "file": "assets/naver-originals/view-078.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324968_1575340516751000.jpg",
+      "sha256": "f2b3b823715fe4850972452c9c7ad73f13391e0329639fbae0a496bb595caa6d",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)",
+      "use": "Unmodified individual images, noncommercial educational demonstration; no image overlays."
+    },
+    {
+      "file": "assets/naver-originals/view-102.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324968_1575340566112000.jpg",
+      "sha256": "7587fc74e9fa37e8441666926a6c10e3be0822b523dfe8946fd2f839675a3d91",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)",
+      "use": "Unmodified individual images, noncommercial educational demonstration; no image overlays."
+    },
+    {
+      "file": "assets/naver-originals/view-108.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324968_1575340579745000.jpg",
+      "sha256": "bddea2c411431ae34bc363169e4708ab21ab17055dedaac1ea80018a226ca29a",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)",
+      "use": "Unmodified individual images, noncommercial educational demonstration; no image overlays."
+    },
+    {
+      "file": "assets/naver-originals/view-114.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324968_1575340591744000.jpg",
+      "sha256": "8c95fcff84ffa6a1e59692071948725fbc66fb164fb3bacb831d2696d47ced93",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)",
+      "use": "Unmodified individual images, noncommercial educational demonstration; no image overlays."
+    },
+    {
+      "file": "assets/naver-originals/view-120.jpg",
+      "original_id": "2019-12-03_11-27-51/galaxy/AC01324968_1575340603665000.jpg",
+      "sha256": "afc792777dde699d8337a70d40e01034d4f25907ac95e95e740509de8e23ab8c",
+      "modified": false,
+      "copyright": "NAVER LABS",
+      "license": "CC BY-NC-ND 4.0 (modified ver.)",
+      "use": "Unmodified individual images, noncommercial educational demonstration; no image overlays."
+    }
+  ],
+  "source": "https://www.visuallocalization.net/datasets/",
+  "license_url": "https://download.europe.naverlabs.com/kapture/GangnamStation_LICENSE.txt",
+  "copyright": "NAVER LABS",
+  "endorsement": false,
+  "excluded": [
+    "Modified photos and AR overlays",
+    "Full feature/depth maps",
+    "KRIC diagram images"
+  ],
+  "public_data": {
+    "elevator_inventory": "https://www.data.go.kr/data/15044261/fileData.do",
+    "permission": "이용허락범위 제한 없음",
+    "route_facts": "https://station.kric.go.kr/"
+  },
+  "count": 82,
+  "original_bytes_verified": true,
+  "scope": "Noncommercial educational demo. Original photographs displayed separately from authored diagrams. No provider endorsement."
+}

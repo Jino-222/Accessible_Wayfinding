@@ -1,0 +1,12 @@
+{
+    "condition": "closed",
+    "final_state": "blocked",
+    "prediction_file": "closed-be55bf63a310407ea61c5ff8b86e5381.jsonl",
+    "unity_version": "6000.3.28f1",
+    "movement": "scripted user along registered path; image-only guidance; video sampled at 15 fps, not real-time inference benchmark",
+    "video_frames": 226,
+    "observations": 29,
+    "fps": 15.0,
+    "duration_s": 15.066666603088379,
+    "xr_tracking": true
+}

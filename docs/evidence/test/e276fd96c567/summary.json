@@ -1,0 +1,32 @@
+{
+  "config": {
+    "kind": "unscored_public_test_demo",
+    "query_manifest_sha256": "e276fd96c5675635901ba36913b01db4cef7a2afc22459ec7bf8dae87fd9487a",
+    "source_sha256": "166fe560a8f7582153c0ac6ac6e7b01989a0ccb5859abc38e5615618f9d3047b",
+    "methods": [
+      "retrieved_rootsift_pnp",
+      "retrieved_lightglue_pnp"
+    ],
+    "lightglue_commit": "5a650c444718caffc2669dc0094cde908f42dd73",
+    "count": 41,
+    "selection": "Contiguous camera AC01324955_26 records 145..185 inclusive after visual overview; includes failures; unscored demonstration, not accuracy evaluation",
+    "ground_truth": "Not supplied by the public test split; no accuracy claims",
+    "policy": "Keep unsuccessful and rejected estimates; select/rank using image observations only"
+  },
+  "methods": [
+    {
+      "method": "retrieved_rootsift_pnp",
+      "queries": 41,
+      "output_count": 35,
+      "quality_accepted_count": 27,
+      "accuracy": null
+    },
+    {
+      "method": "retrieved_lightglue_pnp",
+      "queries": 41,
+      "output_count": 36,
+      "quality_accepted_count": 33,
+      "accuracy": null
+    }
+  ]
+}

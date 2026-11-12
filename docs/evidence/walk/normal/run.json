@@ -1,0 +1,12 @@
+{
+    "condition": "normal",
+    "final_state": "arrived",
+    "prediction_file": "normal-05ca712610f44a728d8cbe9df9e83812.jsonl",
+    "unity_version": "6000.3.28f1",
+    "movement": "scripted user along registered path; image-only guidance; video sampled at 15 fps, not real-time inference benchmark",
+    "video_frames": 551,
+    "observations": 69,
+    "fps": 15.0,
+    "duration_s": 36.733333587646487,
+    "xr_tracking": true
+}

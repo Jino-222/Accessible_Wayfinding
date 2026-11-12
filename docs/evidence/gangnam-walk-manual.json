@@ -1,0 +1,52 @@
+{
+  "status": "verified",
+  "method": "Native Unity Game-view buttons, actual image localization",
+  "run": "manual-v1",
+  "observations": 396,
+  "translation_m": 0.500000006336006,
+  "rotation_deg": 14.999970842285805,
+  "events": [
+    {
+      "frame": 0,
+      "time_s": 3.814697265625e-06,
+      "state": "confirming"
+    },
+    {
+      "frame": 2,
+      "time_s": 1.0840530395507812,
+      "state": "guiding"
+    },
+    {
+      "frame": 213,
+      "time_s": 98.08602905273438,
+      "state": "position_uncertain"
+    },
+    {
+      "frame": 258,
+      "time_s": 116.94432067871094,
+      "state": "confirming"
+    },
+    {
+      "frame": 260,
+      "time_s": 117.89198303222656,
+      "state": "guiding"
+    },
+    {
+      "frame": 284,
+      "time_s": 129.30601501464844,
+      "state": "blocked"
+    },
+    {
+      "frame": 322,
+      "time_s": 147.52383422851562,
+      "state": "confirming"
+    },
+    {
+      "frame": 324,
+      "time_s": 148.4907684326172,
+      "state": "guiding"
+    }
+  ],
+  "scope": "Start, forward 0.5m, image masking and recovery, closure and reopen, turn 15 degrees, stop. Full approach tested in automatic runs.",
+  "trace_sha256": "3b7e607ec1e6641276e61e441e7b37dd7e922629a81644b4bef631e4436795bd"
+}

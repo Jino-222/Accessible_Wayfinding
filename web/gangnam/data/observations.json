@@ -1,0 +1,391 @@
+{
+  "mode": "precomputed_predictions",
+  "frames": [
+    {
+      "id": "2019-12-03_11-27-51/galaxy/AC01324968_1575340174661000.jpg",
+      "sample_index": 0,
+      "timestamp": 1575340174661000,
+      "image": "assets/naver-originals/view-000.jpg",
+      "pose": null,
+      "accepted": false,
+      "inliers": 0,
+      "reprojection_px": null,
+      "reason": "insufficient_correspondences",
+      "elapsed_ms": 1718.8544000091497,
+      "method": "retrieved_lightglue_pnp"
+    },
+    {
+      "id": "2019-12-03_11-27-51/galaxy/AC01324968_1575340186647000.jpg",
+      "sample_index": 6,
+      "timestamp": 1575340186647000,
+      "image": "assets/naver-originals/view-006.jpg",
+      "pose": [
+        [
+          0.5247839461840725,
+          0.15509667537299598,
+          0.8369867568341303,
+          799.876042384553
+        ],
+        [
+          -0.8512253711242189,
+          0.090828094943983,
+          0.5168806677786297,
+          -552.8562846284542
+        ],
+        [
+          0.004144560520452534,
+          -0.9837150392553171,
+          0.179687351143596,
+          -4.505145707992743
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "accepted": false,
+      "inliers": 7,
+      "reprojection_px": 1.9141474415980178,
+      "reason": "pose_rejected_by_quality",
+      "elapsed_ms": 2064.1569000144955,
+      "method": "retrieved_lightglue_pnp"
+    },
+    {
+      "id": "2019-12-03_11-27-51/galaxy/AC01324968_1575340380721000.jpg",
+      "sample_index": 12,
+      "timestamp": 1575340380721000,
+      "image": "assets/naver-originals/view-012.jpg",
+      "pose": [
+        [
+          0.20608740630200972,
+          -0.367004842917579,
+          -0.907102764982421,
+          721.2755052489233
+        ],
+        [
+          0.977542252100613,
+          0.03549948266691613,
+          0.20772802432132975,
+          -590.0938163923641
+        ],
+        [
+          -0.04403551205302353,
+          -0.9295414095162327,
+          0.36607873698536975,
+          -4.9486449306048215
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "accepted": false,
+      "inliers": 7,
+      "reprojection_px": 1.99309630877541,
+      "reason": "pose_rejected_by_quality",
+      "elapsed_ms": 1481.501100002788,
+      "method": "retrieved_lightglue_pnp"
+    },
+    {
+      "id": "2019-12-03_11-27-51/galaxy/AC01324968_1575340416733000.jpg",
+      "sample_index": 30,
+      "timestamp": 1575340416733000,
+      "image": "assets/naver-originals/view-030.jpg",
+      "pose": null,
+      "accepted": false,
+      "inliers": 0,
+      "reprojection_px": null,
+      "reason": "insufficient_correspondences",
+      "elapsed_ms": 1468.73609998147,
+      "method": "retrieved_lightglue_pnp"
+    },
+    {
+      "id": "2019-12-03_11-27-51/galaxy/AC01324968_1575340453666000.jpg",
+      "sample_index": 48,
+      "timestamp": 1575340453666000,
+      "image": "assets/naver-originals/view-048.jpg",
+      "pose": [
+        [
+          -0.7764469701736492,
+          -0.10690572025452227,
+          -0.6210485242595961,
+          854.5082974310744
+        ],
+        [
+          0.6299144341082491,
+          -0.1029153461289698,
+          -0.7698157164109074,
+          -553.4498746678113
+        ],
+        [
+          0.0183822797890969,
+          -0.9889285103120529,
+          0.14724976496327302,
+          -3.6034682269130216
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "accepted": true,
+      "inliers": 22,
+      "reprojection_px": 1.6336755552139204,
+      "reason": "pose_estimated",
+      "elapsed_ms": 3357.3065000236966,
+      "method": "retrieved_lightglue_pnp"
+    },
+    {
+      "id": "2019-12-03_11-27-51/galaxy/AC01324968_1575340465659000.jpg",
+      "sample_index": 54,
+      "timestamp": 1575340465659000,
+      "image": "assets/naver-originals/view-054.jpg",
+      "pose": [
+        [
+          -0.8170532527400887,
+          -0.07794879566741883,
+          -0.5712687348707608,
+          864.3135768536737
+        ],
+        [
+          0.5765392337796598,
+          -0.11930328143649305,
+          -0.8083125874012155,
+          -548.6282533386569
+        ],
+        [
+          -0.005147241941415637,
+          -0.9897932674515845,
+          0.14241767308839381,
+          -3.383254188132726
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "accepted": true,
+      "inliers": 35,
+      "reprojection_px": 1.1925000439346736,
+      "reason": "pose_estimated",
+      "elapsed_ms": 2521.2516999745276,
+      "method": "retrieved_lightglue_pnp"
+    },
+    {
+      "id": "2019-12-03_11-27-51/galaxy/AC01324968_1575340503737000.jpg",
+      "sample_index": 72,
+      "timestamp": 1575340503737000,
+      "image": "assets/naver-originals/view-072.jpg",
+      "pose": [
+        [
+          0.8202641036245746,
+          0.11505888142536183,
+          0.5602930073721404,
+          855.2355313200435
+        ],
+        [
+          -0.5719157081810697,
+          0.14973898863395702,
+          0.806530010612516,
+          -553.2907541545891
+        ],
+        [
+          0.008900732594478655,
+          -0.9820079883015331,
+          0.18862949894239067,
+          -3.5888423694318377
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "accepted": true,
+      "inliers": 15,
+      "reprojection_px": 1.1894351505609522,
+      "reason": "pose_estimated",
+      "elapsed_ms": 1938.8392999826465,
+      "method": "retrieved_lightglue_pnp"
+    },
+    {
+      "id": "2019-12-03_11-27-51/galaxy/AC01324968_1575340516751000.jpg",
+      "sample_index": 78,
+      "timestamp": 1575340516751000,
+      "image": "assets/naver-originals/view-078.jpg",
+      "pose": [
+        [
+          0.9993106099198605,
+          0.035331895671320154,
+          0.01140008990610984,
+          848.249529896347
+        ],
+        [
+          -0.017988498954757237,
+          0.1921892167700185,
+          0.9811930079564782,
+          -556.5322572824203
+        ],
+        [
+          0.03247643464038405,
+          -0.980721653735451,
+          0.1926922911988206,
+          -3.7630552553440615
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "accepted": true,
+      "inliers": 37,
+      "reprojection_px": 0.7218590771019567,
+      "reason": "pose_estimated",
+      "elapsed_ms": 936.1532000184525,
+      "method": "retrieved_lightglue_pnp"
+    },
+    {
+      "id": "2019-12-03_11-27-51/galaxy/AC01324968_1575340566112000.jpg",
+      "sample_index": 102,
+      "timestamp": 1575340566112000,
+      "image": "assets/naver-originals/view-102.jpg",
+      "pose": [
+        [
+          -0.5598007869847115,
+          -0.13587981452659548,
+          -0.8174103956370482,
+          828.2784705531866
+        ],
+        [
+          0.8286242198049714,
+          -0.08913983380470192,
+          -0.5526626388511102,
+          -564.7927606664633
+        ],
+        [
+          0.0022318700455456475,
+          -0.9867070315111208,
+          0.16249385441490272,
+          -4.051770441819074
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "accepted": false,
+      "inliers": 7,
+      "reprojection_px": 1.6662781729896676,
+      "reason": "pose_rejected_by_quality",
+      "elapsed_ms": 1587.3402999714017,
+      "method": "retrieved_lightglue_pnp"
+    },
+    {
+      "id": "2019-12-03_11-27-51/galaxy/AC01324968_1575340579745000.jpg",
+      "sample_index": 108,
+      "timestamp": 1575340579745000,
+      "image": "assets/naver-originals/view-108.jpg",
+      "pose": [
+        [
+          -0.5479451373670474,
+          -0.15572583453585132,
+          -0.821891471481436,
+          828.3649959789548
+        ],
+        [
+          0.8364952768939352,
+          -0.10862450317210759,
+          -0.53709996187372,
+          -564.8260061256906
+        ],
+        [
+          -0.005637212959104465,
+          -0.9818096464023591,
+          0.18978419339167374,
+          -4.158534059417089
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "accepted": false,
+      "inliers": 10,
+      "reprojection_px": 2.21102446475063,
+      "reason": "pose_rejected_by_quality",
+      "elapsed_ms": 1120.8556999918073,
+      "method": "retrieved_lightglue_pnp"
+    },
+    {
+      "id": "2019-12-03_11-27-51/galaxy/AC01324968_1575340591744000.jpg",
+      "sample_index": 114,
+      "timestamp": 1575340591744000,
+      "image": "assets/naver-originals/view-114.jpg",
+      "pose": null,
+      "accepted": false,
+      "inliers": 0,
+      "reprojection_px": null,
+      "reason": "insufficient_correspondences",
+      "elapsed_ms": 2028.3150000323076,
+      "method": "retrieved_lightglue_pnp"
+    },
+    {
+      "id": "2019-12-03_11-27-51/galaxy/AC01324968_1575340603665000.jpg",
+      "sample_index": 120,
+      "timestamp": 1575340603665000,
+      "image": "assets/naver-originals/view-120.jpg",
+      "pose": [
+        [
+          -0.9954347242907421,
+          0.028182266293082056,
+          0.09118919641492729,
+          829.7857124326474
+        ],
+        [
+          -0.09467536717939433,
+          -0.17048502969106194,
+          -0.980801422052744,
+          -564.0034159421841
+        ],
+        [
+          -0.012094813998621022,
+          -0.9849571637984181,
+          0.1723748849354666,
+          -4.076875178526239
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "accepted": false,
+      "inliers": 7,
+      "reprojection_px": 1.5322643811426633,
+      "reason": "pose_rejected_by_quality",
+      "elapsed_ms": 1895.9527000261005,
+      "method": "retrieved_lightglue_pnp"
+    }
+  ],
+  "coordinate_system": "NAVER B2 world, camera-to-world, metres; NOT aligned to the route diagram",
+  "selection": "12 manually reviewed illustrative frames from evaluation session; not an accuracy denominator",
+  "pipeline": "SIFT features + pretrained LightGlue matching + PnP; not retrained",
+  "navigation_binding": null,
+  "notice": "위치 추정 좌표와 시설 도식 사이의 대응은 미확인. 이 관측으로 실제 시설 도착을 판정하지 않음."
+}

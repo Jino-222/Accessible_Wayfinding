@@ -1,0 +1,23 @@
+{
+  "test_archive": "Official B2 test archive, SHA256 verified, 1786 images",
+  "runs": [
+    {
+      "id": "e276fd96c567",
+      "queries": 41,
+      "lightglue_accepted": 33,
+      "accuracy": null
+    },
+    {
+      "id": "6e2c55acb9bc",
+      "queries": 26,
+      "lightglue_accepted": 16,
+      "accuracy": null
+    }
+  ],
+  "tests": {
+    "node": 15,
+    "web_python": 453,
+    "vision_python": 31
+  },
+  "no_hidden_test_truth": true
+}

@@ -1,0 +1,280 @@
+{
+  "id": "gangnam-line2",
+  "name": "강남역",
+  "line": "2호선",
+  "geometry": "schematic_not_metric",
+  "nodes": [
+    {
+      "id": "exit1",
+      "label": "1번 출구 측 엘리베이터",
+      "floor": "1F",
+      "x": 185,
+      "y": 65,
+      "selectable": true
+    },
+    {
+      "id": "exit10",
+      "label": "10번 출구 측 엘리베이터",
+      "floor": "1F",
+      "x": 595,
+      "y": 65,
+      "selectable": true
+    },
+    {
+      "id": "hall1",
+      "label": "1번 출구 측 대합실",
+      "floor": "B1",
+      "x": 185,
+      "y": 180,
+      "selectable": true
+    },
+    {
+      "id": "hall10",
+      "label": "10번 출구 측 대합실",
+      "floor": "B1",
+      "x": 595,
+      "y": 180,
+      "selectable": true
+    },
+    {
+      "id": "gate",
+      "label": "개찰구 통과 구간",
+      "floor": "B1",
+      "x": 390,
+      "y": 240,
+      "selectable": false
+    },
+    {
+      "id": "liftY",
+      "label": "역삼 방면 내부 엘리베이터",
+      "floor": "B1",
+      "x": 220,
+      "y": 310,
+      "selectable": false
+    },
+    {
+      "id": "liftG",
+      "label": "교대 방면 내부 엘리베이터",
+      "floor": "B1",
+      "x": 560,
+      "y": 310,
+      "selectable": false
+    },
+    {
+      "id": "platformY",
+      "label": "역삼 방면 승강장 · 8-1 부근",
+      "floor": "B2",
+      "x": 220,
+      "y": 425,
+      "selectable": true
+    },
+    {
+      "id": "platformG",
+      "label": "교대 방면 승강장 · 3-4 부근",
+      "floor": "B2",
+      "x": 560,
+      "y": 425,
+      "selectable": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "a": "exit1",
+      "b": "hall1",
+      "kind": "elevator",
+      "facility": "external1",
+      "stairs": false,
+      "width_m": null,
+      "slope": null,
+      "distance_m": null,
+      "source": "KRIC published access routes + Seoul Metro elevator inventory",
+      "operation": "unknown",
+      "direction": "forward",
+      "evidence": "published_topology"
+    },
+    {
+      "id": "e1",
+      "a": "exit10",
+      "b": "hall10",
+      "kind": "elevator",
+      "facility": "external10",
+      "stairs": false,
+      "width_m": null,
+      "slope": null,
+      "distance_m": null,
+      "source": "KRIC published access routes + Seoul Metro elevator inventory",
+      "operation": "unknown",
+      "direction": "forward",
+      "evidence": "published_topology"
+    },
+    {
+      "id": "e2",
+      "a": "hall1",
+      "b": "gate",
+      "kind": "walk",
+      "facility": null,
+      "stairs": false,
+      "width_m": null,
+      "slope": null,
+      "distance_m": null,
+      "source": "KRIC published access routes + Seoul Metro elevator inventory",
+      "operation": "unknown",
+      "direction": "forward",
+      "evidence": "published_topology"
+    },
+    {
+      "id": "e3",
+      "a": "hall10",
+      "b": "gate",
+      "kind": "walk",
+      "facility": null,
+      "stairs": false,
+      "width_m": null,
+      "slope": null,
+      "distance_m": null,
+      "source": "KRIC published access routes + Seoul Metro elevator inventory",
+      "operation": "unknown",
+      "direction": "forward",
+      "evidence": "published_topology"
+    },
+    {
+      "id": "e4",
+      "a": "gate",
+      "b": "liftY",
+      "kind": "walk",
+      "facility": null,
+      "stairs": false,
+      "width_m": null,
+      "slope": null,
+      "distance_m": null,
+      "source": "KRIC published access routes + Seoul Metro elevator inventory",
+      "operation": "unknown",
+      "direction": "forward",
+      "evidence": "published_topology"
+    },
+    {
+      "id": "e5",
+      "a": "gate",
+      "b": "liftG",
+      "kind": "walk",
+      "facility": null,
+      "stairs": false,
+      "width_m": null,
+      "slope": null,
+      "distance_m": null,
+      "source": "KRIC published access routes + Seoul Metro elevator inventory",
+      "operation": "unknown",
+      "direction": "forward",
+      "evidence": "published_topology"
+    },
+    {
+      "id": "e6",
+      "a": "liftY",
+      "b": "platformY",
+      "kind": "elevator",
+      "facility": "internalY",
+      "stairs": false,
+      "width_m": null,
+      "slope": null,
+      "distance_m": null,
+      "source": "KRIC published access routes + Seoul Metro elevator inventory",
+      "operation": "unknown",
+      "direction": "forward",
+      "evidence": "published_topology"
+    },
+    {
+      "id": "e7",
+      "a": "liftG",
+      "b": "platformG",
+      "kind": "elevator",
+      "facility": "internalG",
+      "stairs": false,
+      "width_m": null,
+      "slope": null,
+      "distance_m": null,
+      "source": "KRIC published access routes + Seoul Metro elevator inventory",
+      "operation": "unknown",
+      "direction": "forward",
+      "evidence": "published_topology"
+    }
+  ],
+  "sources": [
+    "gangnam_S1_2_route_1_1",
+    "gangnam_S1_2_route_1_2",
+    "gangnam_S1_2_route_1_5",
+    "gangnam_S1_2_route_1_6"
+  ],
+  "facilities": [
+    {
+      "연번": "111",
+      "호선": "2호선",
+      "역  명": "강남(2)",
+      "관리번호(호기)": "내부#1",
+      "(근접)출입구번호": "내부",
+      "시작층(상세위치)": "역삼 방면8-1",
+      "시작층(지상_지하)": "지하",
+      "시작층(운행역층)": "2",
+      "종료층(지상_지하)": "지하",
+      "종료층(운행역층)": "1",
+      "정원(인원수)": "15",
+      "정원(중량)": "1000",
+      "승강기 일련번호": "0087-544",
+      "데이터 기준일자": "2026-09-01"
+    },
+    {
+      "연번": "112",
+      "호선": "2호선",
+      "역  명": "강남(2)",
+      "관리번호(호기)": "내부#2",
+      "(근접)출입구번호": "내부",
+      "시작층(상세위치)": "교대 방면3-4",
+      "시작층(지상_지하)": "지하",
+      "시작층(운행역층)": "2",
+      "종료층(지상_지하)": "지하",
+      "종료층(운행역층)": "1",
+      "정원(인원수)": "15",
+      "정원(중량)": "1000",
+      "승강기 일련번호": "0087-545",
+      "데이터 기준일자": "2026-09-01"
+    },
+    {
+      "연번": "113",
+      "호선": "2호선",
+      "역  명": "강남(2)",
+      "관리번호(호기)": "외부#1",
+      "(근접)출입구번호": "1번출구",
+      "시작층(상세위치)": "1번 출구 측",
+      "시작층(지상_지하)": "지하",
+      "시작층(운행역층)": "1",
+      "종료층(지상_지하)": "지상",
+      "종료층(운행역층)": "1",
+      "정원(인원수)": "15",
+      "정원(중량)": "1000",
+      "승강기 일련번호": "0087-546",
+      "데이터 기준일자": "2026-09-01"
+    },
+    {
+      "연번": "114",
+      "호선": "2호선",
+      "역  명": "강남(2)",
+      "관리번호(호기)": "외부#2",
+      "(근접)출입구번호": "10번출구",
+      "시작층(상세위치)": "10번 출구 측",
+      "시작층(지상_지하)": "지하",
+      "시작층(운행역층)": "1",
+      "종료층(지상_지하)": "지상",
+      "종료층(운행역층)": "1",
+      "정원(인원수)": "13",
+      "정원(중량)": "1000",
+      "승강기 일련번호": "0087-547",
+      "데이터 기준일자": "2026-09-01"
+    }
+  ],
+  "exclusions": [
+    "8번 출구: 이번 시설 목록과 대조 미완료",
+    "신분당선 환승: 이번 데모 범위 밖",
+    "반대 방향 동선: 별도 출처 검토 전 제외"
+  ],
+  "notice": "공개 동선의 연결 순서를 단순화한 도식. 위치·거리·방위·통행 폭을 나타내지 않음."
+}

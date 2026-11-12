@@ -1,0 +1,21 @@
+__pycache__/
+.pytest_cache/
+.venv*/
+.env
+*.log
+*.npz
+*.pth
+*.tar.gz
+
+unity/**/Library/
+unity/**/Temp/
+unity/**/Logs/
+unity/**/UserSettings/
+runtime/
+
+# Private submission checks and publication notes are not release assets.
+portfolio/*직접확인*
+portfolio/CHECKLIST*
+portfolio/gangnam-portfolio-audit.json
+docs/evidence/*publication.json
+docs/evidence/*pages-deployment.json

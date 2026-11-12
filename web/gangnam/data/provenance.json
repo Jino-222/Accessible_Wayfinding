@@ -1,0 +1,26 @@
+{
+  "source_files": {
+    "data/raw/seoul_elevators.csv": "87553e6baf464cb855d690ef259dee04df1ea6bae4e1d83638c1cb044e01d3c0",
+    "data/gangnam_published_routes.json": "93bb34e43303a107e9ce35c7889440430e76fed1435b3f7e4582ab597bc6d490",
+    "data/raw/gangnam_S1_2_route_1_1.json": "16d367fc45dd0f1cfb57ad022f64361a42ad2899a0c4ee0abe74b017bf6ca18b",
+    "data/raw/gangnam_S1_2_route_1_2.json": "a592fc66efddeda8324bfc64bdf3aec98ef0e60a739bf2165a8e548e7a15a9ed",
+    "data/raw/gangnam_S1_2_route_1_5.json": "129391aefa97d37fb1c82fa5e0164b1a6ca6bad1fc8c3ca800e709461e540c53",
+    "data/raw/gangnam_S1_2_route_1_6.json": "4a6039ed01757ca5c7fa8c714a858388c155180ed81f17b660aca0e67b4eb669"
+  },
+  "reviewed_routes": [
+    "gangnam_S1_2_route_1_1",
+    "gangnam_S1_2_route_1_2",
+    "gangnam_S1_2_route_1_5",
+    "gangnam_S1_2_route_1_6"
+  ],
+  "facility_ids": [
+    "0087-544",
+    "0087-545",
+    "0087-546",
+    "0087-547"
+  ],
+  "topology": "Entrance-to-platform direction only; shared nodes denote logical areas, not measured common passage points",
+  "geometry": "Authored layout positions for display only; never interpreted as metres",
+  "field_validation": false,
+  "image_to_facility_registration": "pending"
+}

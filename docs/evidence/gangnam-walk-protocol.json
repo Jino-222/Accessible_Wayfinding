@@ -1,0 +1,36 @@
+{
+  "revision": "gangnam-walk-v2",
+  "source": "web/gangnam/data/corridor.json",
+  "source_sha256": "51f21ecec5f9bb4cc9ccaf76e9214f8ca01785610c2ef7fa0f2c3db5cabb068d",
+  "length_m": 22.060803552187107,
+  "source_origin_xy": [
+    765.101255228389,
+    -588.1640691513329
+  ],
+  "source_forward_xy": [
+    -0.9523615962755392,
+    -0.3049711296819864
+  ],
+  "source_right_xy": [
+    -0.3049711296819864,
+    0.9523615962755392
+  ],
+  "transform": "local x=dot(source_xy-origin,right); local z=dot(source_xy-origin,forward); local y=synthetic height; Unity=(x,y,-z)",
+  "observed": [
+    "historical mapping camera trajectory between observation A and elevator approach"
+  ],
+  "synthetic": [
+    "corridor width 6.8 m",
+    "ceiling height 3.3 m",
+    "walls, signs, posters, floor and elevator geometry",
+    "walk camera height 1.2 m"
+  ],
+  "limitations": [
+    "Not a surveyed Gangnam model",
+    "No present facility identity or operation verified",
+    "No proof of wheelchair passability"
+  ],
+  "mapping_views": 108,
+  "query_policy": "Different height (1.2 m), centre-line path and continuously changing viewpoints; no query images in mapping",
+  "boundary": "Only RGB, camera intrinsics, timestamp and declared camera height cross the localization API; truth is evaluation-only"
+}

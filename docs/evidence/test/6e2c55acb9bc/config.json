@@ -1,0 +1,14 @@
+{
+  "kind": "unscored_public_test_demo",
+  "query_manifest_sha256": "6e2c55acb9bcd94be5f6244f1fe8186d7b9d35dabf7d9ac62a57baf3b2baa11e",
+  "source_sha256": "166fe560a8f7582153c0ac6ac6e7b01989a0ccb5859abc38e5615618f9d3047b",
+  "methods": [
+    "retrieved_rootsift_pnp",
+    "retrieved_lightglue_pnp"
+  ],
+  "lightglue_commit": "5a650c444718caffc2669dc0094cde908f42dd73",
+  "count": 26,
+  "selection": "Contiguous public test camera AC01324954_25 records 160..185 inclusive after visual overview; retain all predictions; no test truth available",
+  "ground_truth": "Not supplied by the public test split; no accuracy claims",
+  "policy": "Keep unsuccessful and rejected estimates; select/rank using image observations only"
+}

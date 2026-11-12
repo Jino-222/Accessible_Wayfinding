@@ -1,0 +1,12 @@
+numpy==2.4.6
+scipy==1.17.1
+opencv-python==5.0.0.93
+pycolmap==4.2.1
+kapture==1.1.12
+kapture-localization==1.1.10
+matplotlib==3.11.2
+torch==2.15.0
+networkx==3.6.1
+pydantic==2.14.3
+pytest==9.2.0
+requests==2.34.2
